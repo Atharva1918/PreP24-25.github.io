@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prep24-25</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="myfunction()">
+    
+<header class="header">
+
+
+    <section class="flex">
+
+        <a href="#home" class="logo">Prep24-25</a>
+
+        <nav class="navbar">
+            <a  onmousedown="sound3.play()"   href="#home">Home</a>
+            <a onmousedown="sound3.play()"   href="#about">About</a>
+            <a onmousedown="sound3.play()"  href="#courses">Preparation material</a>
+            <a onmousedown="sound3.play()"  href="#contact">Contact</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </section>
+</header>
+
+<section class="home" id="home">
+    <div class="row">
+        <div class="content">
+            <h3>Placement <span>Preparation</span></h3>
+            <a  onmousedown="sound1.play()"   href="#courses" class="btn"> Let's begin</a>
+        </div>
+        <div class="image">
+            <img src="images/Team work-cuate.svg" alt="">
+        </div>
+    </div>
+</section>
+
+
+<section>
+<section class="about" id="about">
+    <div class="row">
+
+        <div class="image">
+            <img src="images/Work chat-bro.svg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Purpose of Prep24-25</h3>
+            <p>The purpose of the platform is to help the students of <span>ENTC department of Dr. D.Y. Patil Institute of Technology </span> in their placement preparation who want to work in IT and core sector. This platform contains concepts like DSA, Aptitude and Problem Solving and 
+                also mini project ideas which are useful for skill enhancement.</p>
+            <a  onmousedown="sound1.play()"  href="#courses" class="btn"> Explore us..   </a>
+        </div>
+    </div>
+</section>
+</section>
+
+<section class="courses" id="courses">
+    <h1 class="heading"> <span>Preparation </span>  Material</h1>
+    <div class="swiper course-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <img src="images/Low code development-amico.svg" alt="">
+                <h3>Data structures and algorithms </h3>
+                <P>Companies look for DSA in your resume since it is the most-required skill. Using DSA, you can build optimized and efficient applications, therefore, 
+            learners who have a good grip on DSA are highly preferred by most tech companies and can easily get placements.</P>
+            <a onmouseover="playsound()"   href="dsa.html" class="btn1"> Start</a>
+            </div>
+            <div class=" swiper-slide slide">
+                <img src="images/Problem solving-amico.svg" alt="">
+                <h3>Aptitude and Problem solving </h3>
+                <P>Aptitude tests are widely used by employers as a tool to evaluate candidates' suitability for a job or a training program. They help employers assess the potential of candidates by measuring their cognitive abilities, 
+                    critical thinking skills, problem-solving abilities, and job-related skills.</P>
+         <a onmouseover="playsound()"  href="aptitude.html" class="btn1">Start</a>
+            </div>
+            <div class="swiper-slide slide">
+                <img src="images/Sharing Ideas-bro.svg" alt="">
+                <h3>Mini Projects idea's</h3>
+                <P>Making a good project is a difficult task itself, having a good project is very important as it depicts your programming skills and gives weightage to your resume. It is a student-centred
+                     method that encourages critical thinking, problem-solving, collaboration, and creativity.</P>
+         <a onmouseover="playsound()"  href="project.html" class="btn1">Start</a>
+            </div>
+            <div class="swiper-slide slide">
+                <img src="images/Interview-cuate.svg" alt="">
+                <h3>Interview Communication </h3>
+                <P>Interview refers to a formal, in-depth conversation between two or more persons, wherein exchange of information takes place, with a view of checking 
+                    candidate's acceptability for the job. It is an effective tool for selection.Good Communication = Success </P>
+         <a onmouseover="playsound()"  href="interview.html" class="btn1">Start</a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container contact-row">
+          <div class="contact-left-col">
+            <h1>Give your <span> suggestions</span> <br>and feedback to us </h1>
+            <a  onmousedown="sound1.play()" href="https://64l6begnz0d.typeform.com/to/kwSpoIqH" class="btn">Tell us..</a>
+          </div>
+          <div class="contact-right-col">
+          <img src="images/Feedback-bro.svg"></div>
+    </div>
+
+</section>
+
+
+
+<footer class="footer">
+    <section>
+        <div class="share">
+            <a onmousedown="sound2.play()" href="https://atharva1918.github.io/StudyPoint.github.io/" class="fab fa-github"></a>
+            <a onmousedown="sound2.play()"href="#" class="fab fa-github"></a>
+            <a onmousedown="sound2.play()"  href="https://atharva1918.github.io/StudyPoint.github.io/" class="fab fa-github"></a>
+        </div>
+
+    <div class="credit">&copy; Copyright@2024 by <a href="loader.html"> <span>A.D.(Mr.Lonely)</span></a> |all rights reserved!</div>
+    </section>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<audio src="sound/s3.wav" id="my-audio" ></audio>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

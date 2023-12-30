@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+  }
+  html{
+  
+    background-color: #3d3d3d;
+}
+  section{
+  
+    background-color: #3d3d3d;
+}
+  .about-1{
+    margin: 30px;
+    padding: 5px;
+    
+  }
+  .about-1 h1{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 10px;
+  }
+  .about-1 p{
+    text-align: left;
+    font-size: 2rem;
+    line-height: 3rem;
+     color:#fff;
+     margin-top: 7%;
+   
+    
+  
+    word-spacing: 8px;
+  }
+  
+  
+  b{
+    animation: smallb 3s infinite;
+  }
+  
+  @keyframes smallb
+  {
+    0%{color: rgb(255, 255, 255);}
+  
+    50%{color: rgb(0, 0, 0);}
+    100%{color: rgb(255, 255, 255);}
+  }
+  
+  img{
+  
+    width: 30rem;
+    height: 30rem;
+    float: right;
+  
+    
+    box-shadow: #fff;
+  
+  
+   
+  }
+  img{
+    transition: transform .7s ease-in-out;
+  }
+  img:hover{
+    transform: rotate(360deg);
+    transform: scale(1.2);
+  }
+  @media screen and (max-width:600px) {
+  
+    img{
+      width: 20rem;
+      height: 20rem;
+      margin-left: 70%;
+    }
+    .button{
+      padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+    .about-1 p{
+      font-size: 1rem;
+    line-height: 2rem;
+    font: bold;
+    }
+    img:hover{
+      transform: rotate(360deg);
+      
+    }
+  
+  }
+  .about-item{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: #4b4b4b;
+    padding: 90px , 40px;
+    box-shadow: 0 0 9px #00E77F;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  a:link,a:visited,.a:hover,a:active{
+    text-decoration: none;
+    color: #fff;
+  }
+  .about-item i{
+    font-size: 43px;
+    margin: 0;
+    padding: 30px;
+    color: #FFf;
+  }
+  .about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+ 
+  
+  }
+  
+  .about-item hr{
+    width: 50px;
+    height: 3px;
+    background-color:#fff ;
+    margin: 0 auto;
+    border: none;
+  }
+  
+  .about-item P{
+  
+    margin-top: 20PX;
+    margin-bottom: 20px;
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FFf;
+  
+  }
+  .about-item:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow:   0 0 10px rgb(237, 235, 237);;
+  }
+  .about-item:hover i,
+  .about-item:hover h3,
+  .about-item:hover p,
+  .about-item:hover hr{
+    color: black;
+  }
+  .about-item:hover hr{
+    background-color: #FFf;
+
+  }
+  .about-item:hover i{
+    transform: translateY(-20px);
+  }
+  .about-item:hover i,
+  .about-item:hover h3,
+  .about-item:hover hr{
+  
+    transition: all 400ms ease-in-out;
+    color: black;
+  }
+  
+  footer{
+    padding: 20px;
+    text-decoration: none;
+  }
+  footer p{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .mission{
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+    margin: 20px;
+    text-shadow:0 0 10px rgb(0, 0, 0);;;
+  }
+  
+  .info{
+    
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 30px;
+    margin: 30px;
+  
+  
+  }
+  #info1{
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+  
+  .button{
+    color: #fff;
+    background-color:  rgb(221, 41, 221);
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10%;
+    border: 1px solid #fff;
+    font :bold;
+  
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: aliceblue;
+    color: black;
+    font: bold;
+    transform: rotate(360deg);
+  }
+  #mission1{
+    text-align: center;
+  
+  }
+  
+  #sec1,#sec2{
+     margin-top: 15%;
+  }
+
+  footer{
+
+    background-color: var(--light-bg);
+    text-align: center;
+
+}
+
+.footer .share a{
+    margin: 0 .3rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.footer .share a:hover{
+
+    background-color: var(--green);
+}
+
+.footer .credit{
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+    border-top: .1rem solid var(--light-white);
+    font-size: 2rem;
+    color: var(--light-white);
+
+}
+
+.footer .credit span{
+
+    color: var(--green);
+}
